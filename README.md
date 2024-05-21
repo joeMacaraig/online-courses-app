@@ -1,3 +1,36 @@
+# Online Course Application - IBM Django Project
+
+### Set up Virtual Environment
+
+```linux
+pip install --upgrade distro-info
+pip3 install --upgrade pip==23.2.1
+pip install virtualenv
+virtualenv djangoenv
+source djangoenv/bin/activate
+```
+
+### Python runtime and Test template
+
+```linux
+pip install -U -r requirements.txt
+```
+
+### Migrations
+```linux
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
+
+### Run Server (Django admin and Django web server)
+```linux
+python3 manage.py runserver
+```
+
+### Create an admin user
+```linux
+python3 manage.py createsuperuser
+```
 
 **General Notes**
 
